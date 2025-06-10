@@ -69,7 +69,7 @@ if uploaded_file is not None and model:
     # st.text_area() cria um campo de texto para o usuário digitar
     prompt_usuario = st.text_area(
         "O que você quer saber sobre a imagem?", 
-        "Descreva esta imagem em detalhes." # Texto padrão
+        "Descreva esta imagem em detalhes   ." # Texto padrão
     )
 
     # st.button() cria um botão. O código dentro do 'if' só executa quando o botão é clicado.
